@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package>
+	<name>pattern_generator</name>
+	<version>1.0.0</version>
+	<description>Utility for generating calibration targets as Gazebo SDFs.</description>
+	<maintainer email="tes77@case.edu">Tom Shkurti</maintainer>
+	<!--What is roadprintz's code licensed as?-->
+	<license>TODO</license>
+	
+	<buildtool_depend>catkin</buildtool_depend>
+	
+	<export></export>
+</package>
