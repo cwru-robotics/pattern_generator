@@ -58,7 +58,7 @@ int main(int argc, char ** argv){
 	//Output targets
 	bool even_row = true;
 	int v = 0;
-	for(double v_center = b - (s/2.0); v_center <= t; v_center += s * 2.0){
+	for(double v_center = b - (s/2.0); v_center <= t; v_center += s){
 		
 		double h_center;
 		if(even_row){
