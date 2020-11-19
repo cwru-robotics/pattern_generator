@@ -53,7 +53,7 @@ int main(int argc, char ** argv){
 	model_out_stream << "\t\t\t\t</box>\n\t\t\t</geometry>\n\t\t\t<material>\n\t\t\t\t<script>\n";
 	model_out_stream << "\t\t\t\t\t<uri>file://media/materials/scripts/gazebo.material</uri>\n";
 	model_out_stream << "\t\t\t\t\t<name>Gazebo/White</name>\n";
-	model_out_stream << "\t\t\t\t<script>\n\t\t\t</material>\n\t\t</visual>\n\n\n";
+	model_out_stream << "\t\t\t\t</script>\n\t\t\t</material>\n\t\t</visual>\n\n\n";
 	
 	//Output targets
 	bool even_row = true;
@@ -75,7 +75,7 @@ int main(int argc, char ** argv){
 			model_out_stream << "\t\t\t\t</box>\n\t\t\t</geometry>\n\t\t\t<material>\n\t\t\t\t<script>\n";
 			model_out_stream << "\t\t\t\t\t<uri>file://media/materials/scripts/gazebo.material</uri>\n";
 			model_out_stream << "\t\t\t\t\t<name>Gazebo/Black</name>\n";
-			model_out_stream << "\t\t\t\t<script>\n\t\t\t</material>\n\t\t</visual>\n";
+			model_out_stream << "\t\t\t\t</script>\n\t\t\t</material>\n\t\t</visual>\n";
 			
 			h++;
 		}
